@@ -1,0 +1,238 @@
+/*GLOBALSLS*/
+* {
+    margin:0;
+    padding: 0;
+    font-family: Arial;
+    text-align: center;
+    text-decoration:none;
+    letter-spacing: normal;
+    text-justify: inter-word;
+  }
+
+/*BANNER*/
+.DivB{
+  background-color: rgba(9, 0, 128, 0.301);
+  width: 140px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   100px;
+  margin-right:  30px;
+  margin-top: -300px;
+  border: 01px solid black;
+  border-radius: 9px;
+  position: absolute;
+}
+
+.h1b{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 500px;
+  font-size: 50px;
+}
+
+/*Color de fuente*/
+.h1b,
+.h4b,
+.pA,
+.hP {
+    color: rgb(255, 255, 255);
+}
+
+.color{
+  color: white;
+}
+
+.color:hover{
+  color: blue;
+}
+
+/*SOBRE MÍ*/
+.About{
+ background: #7299FE;
+ margin-bottom: 05px;
+}
+
+.h2A{
+    color: blue;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.h3A{
+  padding: 10px;
+  margin-bottom: 05px; 
+}
+
+.pA{
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.DivA{
+    width: 140px;
+    margin-top: 05px;
+    border-radius: 18px;
+    border: outset;
+    position: relative;
+    box-shadow: rgb(12, 12, 12);
+    background-color: palevioletred;
+    margin-bottom: 05px;    
+}
+
+
+
+/*SKILLS*/
+.Skills{
+  background: #5c07a1;
+  margin-bottom: 05px;
+  padding: 60px;
+ }
+
+h5{
+  color: white;
+}
+
+h2{
+  color: green;
+  margin-bottom: 40px;
+  padding: 25px;
+  font-size: 35px;
+}
+
+.DivSS{
+  border: 01px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+.DivS1{
+  background: rgb(7, 163, 253);
+  position: absolute;
+}
+
+.DivS2{
+  background: chartreuse;
+  position: absolute;
+}
+
+
+/*PORTAFOLIO*/
+.flexContPadre1,
+.flexContPadre2{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  margin-bottom: 05px;
+  padding: 0px;
+}
+
+.flexContPadre1>div{
+  width: 100px;
+  margin: 25px;
+}
+.flexContPadre2>div{
+  width: 100px;
+  margin: 25px;
+}
+
+
+.Portafolio{
+  background: #FFD233;
+  margin-bottom: 05px;
+}
+.H2P{
+  color: #00AD84;
+}
+
+
+/*CLIENTES*/
+.H2C{
+  color: #ADFF28;
+}
+
+.Clientes{
+  background: #3F4E62;
+  margin-bottom: 05px;
+}
+
+.flexContPClient{
+  display:flex;
+  flex-wrap: nowrap;
+  height: 200px;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  margin-bottom: 05px;
+  padding: 0px;
+}
+
+.flexContPClient>div{
+  width: 200px;
+  margin: 50px;
+}
+
+
+/*CONTACTO*/
+.H1Cont{
+  color: red;
+  margin-bottom: 40px;
+  padding: 25px;
+  font-size: 35px;
+}
+
+input:valid{
+  color: blue;
+}
+
+input:invalid{
+  color: red;
+}
+
+.Contacto{
+  background: #1687A0 ;
+}
+
+.Flex1{
+  display: flex;
+  height: 80px;
+  align-items: center;
+  position: relative;
+}
+
+.Flex1 > div{
+  width: 800px;
+  margin: 05px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+.Flex2{
+  display: flex;
+  height: 80px;
+  align-items: center;
+  position: relative;
+}
+
+.Flex2 > div{
+  width: 800px;
+  margin: 05px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+.Style1,
+.Style2,
+.Style3,
+.Style4{
+  width : 50px; height: 50px;
+}
+
+/*Imágenes*/
+.imgB{
+ width: 1600px;
+ height: 1000px;
+}
