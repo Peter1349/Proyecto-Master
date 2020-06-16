@@ -1,0 +1,48 @@
+* {
+  margin:0;
+  padding: 0;
+  font-family: Arial;
+  text-align: center;
+  text-decoration:none;
+  letter-spacing: normal;
+  text-justify: inter-word;
+}
+
+div {
+  border-color: rgba(153, 6, 6);
+  border-width: 1px;
+  border-style: dotted;
+}
+
+/*colores de H2*/
+
+.Hprime{
+  color: #d64ac3; 
+}
+
+.Hsecond{
+  color: #e0e405; 
+}
+
+.Htree{
+  color: #9dd601; 
+}
+
+.Hfour{
+  color: #b4108b; 
+}
+
+
+/*colores de sections*/
+
+.impar1,
+.impar3{
+  background-color: rgba(74, 97, 228, 0.486);
+}
+
+
+.par2,
+.par4{
+  background-color: rgba(162, 172, 20);
+}
+
