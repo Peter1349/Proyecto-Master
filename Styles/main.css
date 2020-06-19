@@ -1,18 +1,17 @@
 /*GLOBALSLS*/
 * {
-    margin:0;
-    padding: 0;
     font-family: Arial;
     text-align: center;
     text-decoration:none;
     letter-spacing: normal;
     text-justify: inter-word;
+    box-sizing: border-box;
   }
 
 /*BANNER*/
 .DivB{
   background-color: rgba(9, 0, 128, 0.301);
-  width: 140px;
+  width: 250px;
   padding-left:  50px;
   padding-right: 50px;
   margin-left:   100px;
@@ -91,6 +90,7 @@
 
 h5{
   color: white;
+  margin-right: 350px;
 }
 
 h2{
@@ -104,16 +104,38 @@ h2{
   border: 01px solid black;
   padding: 5px;
   margin: 10px;
-}
-.DivS1{
-  background: rgb(7, 163, 253);
   position: absolute;
+  width: 450px;
+  box-sizing: content-box;
+}
+
+
+.DivS1{
+  background: rgb(123, 226, 19);
+  position: absolute;
+  height: 10px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  
 }
 
 .DivS2{
-  background: chartreuse;
+  background: rgb(7, 163, 253);
   position: absolute;
-}
+  height: 10px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 3px 2px 2px;
+  margin-left: 160px;
+  margin-bottom: 30px;
+  margin
+  
+  
+} 
+
 
 
 /*PORTAFOLIO*/
@@ -228,11 +250,11 @@ input:invalid{
 .Style2,
 .Style3,
 .Style4{
-  width : 50px; height: 50px;
+  width : 50%; height: 50%;
 }
 
 /*Imágenes*/
 .imgB{
- width: 1600px;
- height: 1000px;
+ width: 120%;
+ height: 80%;
 }
