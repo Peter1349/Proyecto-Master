@@ -5,30 +5,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>Portafolio</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="./Styles/reset.css" />
     <link rel="stylesheet" href="./Styles/main.css" />
   </head>
 
   <!--BODY-->
   <body>
-    <main>
-        <section>
+    <main class="main">
+        
           <!--Banner-->
-          <article class="Banner">
+          <section class="Banner" id="Banner">
+                <h1 class="h1banner">Pachaqtec</h1>
                 <figure>
-                    <h1 class="h1banner">Pachaqtec</h1>
-                    <img class="imgB"src="./Image/sacoycorbata.png"/>
+                    <img src="./Image/backpack.png" class="imgBanner">
                 </figure>
                 <div class="DivBanner">
-                    <h4 class="h4b">Hola, mi nombre es Peter Calderón</h4>
+                    <h2 class="h2banner">Hola, mi nombre es Peter Calderón</h2>
                 </div>
-          </article>
+        </section>
 
           <!--Sobre mí-->
-          <article class="About">
-                    <h2 class="h2A">Sobre mí</h2>
-                    <p class="pA">
+          <section class="About" id="About">
+                    <h2>Sobre mí</h2>
+                    <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos,
               corrupti natus velit sint iste fugit voluptatum! Vitae dignissimos
               veniam ut, sed, aspernatur hic tempore impedit, illum repudiandae
@@ -41,69 +41,78 @@
               accusantium perferendis iusto natus et alias quidem cumque dicta earum
               quibusdam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis quasi exercitationem sint optio libero amet consectetur eos, veritatis quo veniam! Aut in culpa ipsam qui aspernatur dolorem, dignissimos aliquid maxime!
                     </p>
-                    <div class="DivA">
-                    <h3 class="h3A"> <a class="color" href="./Form.html">Ver Cv</a></h3>
-                    </div>
-          </article>
+                    <h3 class="h3About"> <a class="color" href="https://www.google.com/">Ver Cv</a></h3> 
+          </section>
 
           <!--Mis Skills-->
-          <article class="Skills">
+          <section class="Skills" id="Skill">
             <h2>Habilidades</h2>
-                        
-                        <div class="DivSS">
-                          <h5>HTML</h5>
-                              <div class="DivS1">
-                                <div class="DivS2">
-                                </div>
+                    <div class="skill-wrap-left">
+                            <div class="SkillItems"> 
+                              <h3>HTML</h3>
+                              <div class="SkillItemsBox">
+                                    <div style="width: 50%;" class="BarSkill">
+                                    </div>
                               </div>
-                        </div>
+                            </div>
+                    </div> 
 
-                        <div>
-                          <h5>CSS</h5>
-                              <div>
-                                <div>
-                                </div>
+                    <div class="skill-wrap-right">
+                            <div class="SkillItems"> 
+                              <h3>CSS</h3>
+                              <div class="SkillItemsBox">
+                                    <div style="width: 20%;" class="BarSkill">
+                                    </div>
                               </div>
-                        </div>
-
-                        <div>
-                          <h5>Java Scripts</h5>
-                              <div>
-                                <div>
-                                </div>
+                            </div>
+                    </div>
+                  
+                    <div class="skill-wrap-left">
+                            <div class="SkillItems"> 
+                              <h3>JavaScript</h3>
+                              <div class="SkillItemsBox">
+                                    <div style="width: 70%;" class="BarSkill">
+                                    </div>
                               </div>
-                        </div>
+                            </div>
+                    </div> 
 
-                        <div>
-                          <h5>Vue</h5>
-                              <div>
-                                <div>
-                                </div>
+                    <div class="skill-wrap-right">
+                            <div class="SkillItems"> 
+                              <h3>VUE</h3>
+                              <div class="SkillItemsBox">
+                                    <div style="width: 65%;" class="BarSkill">
+                                    </div>
                               </div>
-                        </div>
+                            </div>
+                    </div> 
 
-                        <div>
-                          <h5>FlexBox</h5>
-                              <div>
-                                <div>
-                                </div>
+                    <div class="skill-wrap-left">
+                            <div class="SkillItems"> 
+                              <h3>Flexbox</h3>
+                              <div class="SkillItemsBox">
+                                    <div style="width: 55%;" class="BarSkill">
+                                    </div>
                               </div>
-                        </div>
+                            </div>
+                    </div> 
 
-                        <div>
-                          <h5>CSS Grid</h5>
-                              <div>
-                                <div>
-                                </div>
+                    <div class="skill-wrap-right">
+                            <div class="SkillItems"> 
+                              <h3>CSS Gird</h3>
+                              <div class="SkillItemsBox">
+                                    <div style="width: 32%;" class="BarSkill">
+                                    </div>
                               </div>
-                        </div>
+                            </div>
+                    </div> 
 
-          </article>
+          </section>
 
           <!--Portafolio-->
-          <section class="Portafolio">
+          <section class="Portafolio" id="Portafolio">
             
-              <h2 class="H2P">Portafolio</h2> 
+              <h2>Portafolio</h2> 
               <article>
                 <div class="Father1">
                     <div class="Div1">
@@ -147,10 +156,10 @@
           </section>
 
           <!--Clientes-->
-          <section class="Clientes">
-            <h2 class="H2C">Clientes</h2> 
+          <section class="Client" id="client">
+            <h2>Clientes</h2> 
               <article>
-              <div class="flexContPClient">
+              <div class="flexContainerClient">
                 <div>
                   <img style="width: 178; height: 67px;" src="./Image/images clients/image-1.png">
                 </div>
@@ -172,8 +181,8 @@
           </section>
 
           <!--Contacto-->
-          <section class="Contacto">
-            <h1 class="H1Cont">Contacto</h1>
+          <section class="Contact" id="Contact">
+            <h2>Contacto</h2>
             <form action class="flex">
             <div class="Flex1">
               <div class="Style1">
@@ -224,7 +233,7 @@
             </div>
               <br />
               <div>
-                <textarea name="message" style="width: 700px; height: 90px;"> Escriba su opinión          
+                <textarea name="message" style="width: 700px; height: 90px;">          
                 </textarea>
               </div>
               <br />

@@ -4,48 +4,108 @@
     text-align: center;
     text-decoration:none;
     letter-spacing: normal;
-    text-justify: inter-word;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 960px;
-    margin: auto;
+    justify-content: center; 
+}
+
+/*MAIN*/
+.main{
+  width: 100%;
+  max-width: 960px;
+  margin: auto; 
+  border: 6px solid black;
+}
+
+h2{
+  color: #e0bb20;
+  margin-bottom: 40px;
+  padding: 15px 15px 15px 15px;
+  font-size: 35px;
+}
+
+.About,
+.Skills,
+.Portafolio,
+.Client,
+.Contact{
+  height: 424px;
+}
+
+h3{
+  text-align : justify;
+  margin-bottom: 20px;
+  color: white;
 }
 
 /*BANNER*/
 .DivBanner{
-  background-color: rgba(41, 184, 240, 0.342);
-  width: 21%;
-  height: 6%;
-  padding-left:  5%;
-  padding-right: 5%;
-  margin-left:   10%;
-  margin-right:  3%;
-  margin-top: -30%;
-  border-radius: 3%;
+  background-color: rgba(114, 153, 254, 0.5);
+  width: 26%;
+  height: 20%;
+  margin-top: -17%;
+  margin-left: 4%;
+  border-radius: 10px;
   position: absolute;
 }
 
 .h1banner{
   position: absolute;
-  margin-top: 5%;
-  font-size: 50px;
-  text-align: center;
+  margin-top: 4%;
+  margin-left: 25%;
+  font-size: 60px;
+  color: white;
 }
 
 .h1banner:hover{
-  color: #f3b406;
+  color: #e0bb20;
 }
 
-/*Color de fuente*/
-.h1banner,
-.h4b,
-.pA,
-.hP {
-    color: rgb(255, 255, 255);
+.h2banner{
+  color: white;
+  position: relative;
+  font-size: 36px;
 }
 
-.h4b{
-font-size: 100%;
+/*Imágenes*/
+.imgBanner{
+  width: 100%;
+  height: 35%; 
+  border-bottom: 5px solid #e0bb20;
+ }
+
+/*SOBRE MÍ*/
+.About{
+ background: #2b2024;
+ position: static;
+ 
+}
+
+p{
+  color: white;
+  margin: -25px 10px 25px 10px;
+  padding: 10px 5px 10px 5px;
+  font-size: 100%;
+  display: inline-block;
+  text-indent: 1em;
+  line-height: 120%;
+  text-align: justify;
+  text-overflow: inherit;
+}
+
+p:first-letter{
+	font-size:3em;
+	font-family:serif;
+}
+
+.h3About{
+  width: 10%;
+  height: 8%;
+  margin-left: 80px;
+  font-size: 20px;
+  text-align: inherit;
+  position: absolute;
+  border-radius: 15px;
+  border: outset;
+  background-color: #720c0cb2;  
 }
 
 .color{
@@ -53,96 +113,43 @@ font-size: 100%;
 }
 
 .color:hover{
-  color: blue;
+  color: #e0bb20;
 }
-
-/*SOBRE MÍ*/
-.About{
- background: #7299FE;
-}
-
-.h2A{
-    color: blue;
-    padding: 20px;
-    font-size: 35px;
-}
-
-.h3A{
-  padding: 10px;
-  margin-bottom: 05px; 
-}
-
-.pA{
-    padding: 10px;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.DivA{
-    width: 140px;
-    margin-top: 05px;
-    border-radius: 18px;
-    border: outset;
-    position: relative;
-    box-shadow: rgb(12, 12, 12);
-    background-color: palevioletred;
-    margin-bottom: 05px;    
-}
-
-
 
 /*SKILLS*/
 .Skills{
-  background: #5c07a1;
-  margin-bottom: 05px;
-  padding: 60px;
+  background: #a80038;
+  position: static;
  }
 
-h5{
-  color: white;
-  margin-right: 350px;
-}
 
-h2{
-  color: green;
-  margin-bottom: 40px;
-  padding: 25px;
-  font-size: 35px;
-}
-
-.DivSS{
-  border: 01px solid black;
-  padding: 5px;
-  margin: 10px;
+.SkillItemsBox{
+  background: rgba(246, 247, 248, 0.959);
   position: absolute;
-  width: 450px;
-  box-sizing: content-box;
-}
-
-
-.DivS1{
-  background: rgb(123, 226, 19);
-  position: absolute;
-  height: 10px;
-  width: 200px;
+  width: 350px;
   border-radius: 20px;
   padding: 10px 10px 10px 10px;
-  margin: 5px 5px 5px 5px;
-  
 }
 
-.DivS2{
-  background: rgb(7, 163, 253);
+.BarSkill{
+  background: rgb(241, 237, 8);
   position: absolute;
-  height: 10px;
-  width: 200px;
   border-radius: 20px;
   padding: 10px 10px 10px 10px;
-  margin: 5px 3px 2px 2px;
-  margin-left: 160px;
-  margin-bottom: 30px;
-  
-} 
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.skill-wrap-right{
+position: absolute;
+margin-left: 480px;
+margin-top: -67px;
+}
+
+.skill-wrap-left{
+margin-bottom: 50px;
+margin-left: 70px;
+}
 
 
 
@@ -169,25 +176,20 @@ h2{
 
 
 .Portafolio{
-  background: #FFD233;
-  margin-bottom: 5%;
-}
-.H2P{
-  color: #00AD84;
+  background: #fd0054;
+  position: static;
+  
 }
 
 
 /*CLIENTES*/
-.H2C{
-  color: #ADFF28;
+
+.Client{
+  background: #841818;
+  position: static;
 }
 
-.Clientes{
-  background: #3F4E62;
-
-}
-
-.flexContPClient{
+.flexContainerClient{
   display:flex;
   flex-wrap: nowrap;
   height: 100%;
@@ -198,7 +200,7 @@ h2{
   
 }
 
-.flexContPClient>div{
+.flexContainerClient>div{
   width: 100%;
   margin: 2%;
 }
@@ -206,7 +208,7 @@ h2{
 
 /*CONTACTO*/
 .H1Cont{
-  color: red;
+  color: #e0bb20;
   margin-bottom: 40px;
   padding: 25px;
   font-size: 35px;
@@ -220,8 +222,10 @@ input:invalid{
   color: red;
 }
 
-.Contacto{
-  background: #1687A0 ;
+.Contact{
+  background: #757575;
+  position: static;
+  
 }
 
 .Flex1{
@@ -261,8 +265,3 @@ input:invalid{
   width : 50%; height: 50%;
 }
 
-/*Imágenes*/
-.imgB{
- width: 100%;
- height: 35%;
-}
