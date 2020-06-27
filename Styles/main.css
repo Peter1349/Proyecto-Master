@@ -4,11 +4,29 @@
     text-align: center;
     text-decoration:none;
     letter-spacing: normal;
-    justify-content: center; 
+    justify-content: center;
+    box-sizing: border-box;
+    
 }
 
 /*MAIN*/
-.main{
+
+.DivContainner{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.DivChild1,
+.DivChild2,
+.DivChild3,
+.DivChild4,
+.DivChild5,
+.DivChild6{
+  display: grid;
+  grid-template-columns: 940px;
+}
+
+.MainDiv{
   width: 100%;
   max-width: 960px;
   margin: auto; 
@@ -24,9 +42,7 @@ h2{
 
 .About,
 .Skills,
-.Portafolio,
-.Client,
-.Contact{
+.Portafolio{
   height: 424px;
 }
 
@@ -76,7 +92,6 @@ h3{
 .About{
  background: #2b2024;
  position: static;
- 
 }
 
 p{
@@ -98,7 +113,7 @@ p:first-letter{
 
 .h3About{
   width: 10%;
-  height: 8%;
+  height: 5%;
   margin-left: 80px;
   font-size: 20px;
   text-align: inherit;
@@ -122,11 +137,10 @@ p:first-letter{
   position: static;
  }
 
-
 .SkillItemsBox{
   background: rgba(246, 247, 248, 0.959);
   position: absolute;
-  width: 350px;
+  width: 400px;
   border-radius: 20px;
   padding: 10px 10px 10px 10px;
 }
@@ -140,13 +154,13 @@ p:first-letter{
   margin-left: -10px;
 }
 
-.skill-wrap-right{
+.skill-right{
 position: absolute;
 margin-left: 480px;
 margin-top: -67px;
 }
 
-.skill-wrap-left{
+.skill-left{
 margin-bottom: 50px;
 margin-left: 70px;
 }
@@ -178,12 +192,10 @@ margin-left: 70px;
 .Portafolio{
   background: #fd0054;
   position: static;
-  
 }
 
 
 /*CLIENTES*/
-
 .Client{
   background: #841818;
   position: static;

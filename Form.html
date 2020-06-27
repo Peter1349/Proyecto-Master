@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuevo Formulario</title>
+</head>
+<body>
+  <form>
+    <div>
+      <input name="name" type="text" placeholder="Nombres" required pattern="^[a-zA-Z]{2,20}" />
+    </div>
+    <br>
+    <div>
+      <input name="name" type="text" placeholder="Apellido" required pattern="^[a-zA-Zñó\s]+" />
+    </div>
+    <br>
+    <div>
+      <input name="age" type="text" id="numero" placeholder="Edad" min="18" max="80" required pattern="^[0-9]+"/>
+    </div>
+    <br>
+    <div>
+      <label>Masc 
+        <input name="sex" required  type="radio">
+      </label>
+    </div>
+    <br>
+    <div>
+      <label>Fem 
+        <input name="sex" required type="radio">
+      </label>
+    </div>
+    <br>
+    <div>
+      <input name="number" type="text" id="numero" placeholder="DNI" minlength="8" maxlength="8" required pattern="^[0-9]+"/>
+    </div>
+    <br>
+    <div>
+      <input name="email" id="email" type="text" placeholder="Correo electrónico" required/>
+    </div>   
+    <br>
+    <div>
+      <input name="tel" type="text" id="numero" placeholder="Teléfono" minlength="9" maxlength="9" required pattern="^[0-9]+"/>
+    </div>
+    <br>
+    <div>
+      <button>Enviar</button>
+      <button type="reset">Limpiar</button>
+    </div>
+  </form>
+  
+</body>
+</html>

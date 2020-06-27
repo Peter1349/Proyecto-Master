@@ -1,0 +1,44 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  max-width: 960px;
+  width: 100%;
+}
+
+div{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 150px 100px 100px;
+  
+  grid-template-areas: 
+  "aside header header header" 
+  "aside main main nav" 
+  "footer footer footer footer" ;
+  grid-gap: 5px 5px;
+}
+
+header{
+  grid-area: header;
+  background: lawngreen;
+}
+
+nav{
+  grid-area: nav;
+  background: lightcoral;
+}
+
+main{
+  grid-area: main;
+  background: lightseagreen;
+}
+
+aside{
+  grid-area: aside;
+  background: maroon;
+}
+
+footer{
+  grid-area: footer;
+  background: olive;
+}
